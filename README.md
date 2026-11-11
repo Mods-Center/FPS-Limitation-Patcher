@@ -36,6 +36,6 @@
 
 Made by **[🅺🅰🆂🅷🅸](https://t.me/kakashi1v1)** · part of **[Mods Center](https://github.com/Mods-Center)**
 
-[Channel](https://t.me/kashis_cringey_stuffs) · [Support group](https://t.me/bootloop_discussion) · [Report a bug](https://github.com/Mods-Center/FPS-Limitation-Patcher/issues)
+[Website](https://modscenter.org) · [Channel](https://t.me/kashis_cringey_stuffs) · [Support group](https://t.me/bootloop_discussion) · [Report a bug](https://github.com/Mods-Center/FPS-Limitation-Patcher/issues)
 
 </div>
