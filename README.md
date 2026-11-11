@@ -13,29 +13,29 @@
 
 </div>
 
-## ✨ Features
+## Features
 - Patches the PowerKeeper app already on your device during install, so it matches your ROM
 - Supports MIUI and HyperOS, up to Android 16
 
-## 📋 Requirements
+## Requirements
 - MIUI or HyperOS
 - Magisk, KernelSU or APatch
 
-## 📥 Installation
+## Installation
 1. Download the latest zip from [**Releases**](https://github.com/Mods-Center/FPS-Limitation-Patcher/releases/latest).
 2. Flash it in Magisk, KernelSU or APatch.
 3. Installation takes a while because the app is patched on the device.
 4. Reboot your device.
 
-## ⚠️ Notes
+## Notes
 - If downloads keep failing during installation, try again with a VPN.
 
 ---
 
 <div align="center">
 
-Made by **[Kashi](https://t.me/kakashi1v1)** · part of **[Mods Center](https://github.com/Mods-Center)**
+Made by **[🅺🅰🆂🅷🅸](https://t.me/kakashi1v1)** · part of **[Mods Center](https://github.com/Mods-Center)**
 
-[📢 Channel](https://t.me/kashis_cringey_stuffs) · [💬 Support group](https://t.me/bootloop_discussion) · [🐞 Report a bug](https://github.com/Mods-Center/FPS-Limitation-Patcher/issues)
+[Channel](https://t.me/kashis_cringey_stuffs) · [Support group](https://t.me/bootloop_discussion) · [Report a bug](https://github.com/Mods-Center/FPS-Limitation-Patcher/issues)
 
 </div>
