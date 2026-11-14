@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://github.com/Mods-Center/FPS-Limitation-Patcher/assets/83476983/34592a5f-1f23-4a75-8ea7-e3418854e982" alt="FPS Limitation Patcher" width="100%"/>
+<img src="assets/banner.png" alt="FPS Limitation Patcher" width="100%"/>
 
 # FPS Limitation Patcher
 
-**Removes the FPS limits set by PowerKeeper on MIUI and HyperOS.**
+**Removes the FPS and performance limits set by PowerKeeper on MIUI and HyperOS.**
 
 [![Release](https://img.shields.io/github/v/release/Mods-Center/FPS-Limitation-Patcher?style=for-the-badge&label=release&color=0a84ff)](https://github.com/Mods-Center/FPS-Limitation-Patcher/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Mods-Center/FPS-Limitation-Patcher/total?style=for-the-badge&color=30d158)](https://github.com/Mods-Center/FPS-Limitation-Patcher/releases)
@@ -14,21 +14,28 @@
 </div>
 
 ## Features
+- No FPS caps from PowerKeeper: no 60 Hz app lists, no video/idle drops, no Game Turbo limits
+- No refresh-rate drop when the phone heats up
+- Battery saver no longer caps CPU speed (its other savings stay on)
+- Hidden PowerKeeper cloud info menu unlocked on stable ROMs: dial `*#*#76937#*#*`
+- Closes a security hole that let any app point PowerKeeper's power policy to its own server
 - Patches the PowerKeeper app already on your device during install, so it matches your ROM
-- Supports MIUI and HyperOS, up to Android 16
+- Small (about 4 MB): uses the phone's own Android runtime, no Java bundled
+- Thermal safety limits are untouched, overheat protection still works
 
 ## Requirements
-- MIUI or HyperOS
+- MIUI or HyperOS, Android 11 or newer (up to Android 16)
 - Magisk, KernelSU or APatch
+- Android 13+: signature verification must be disabled
 
 ## Installation
 1. Download the latest zip from [**Releases**](https://github.com/Mods-Center/FPS-Limitation-Patcher/releases/latest).
-2. Flash it in Magisk, KernelSU or APatch.
-3. Installation takes a while because the app is patched on the device.
-4. Reboot your device.
+2. Flash it in the Magisk, KernelSU or APatch app (not in recovery).
+3. Reboot your device.
 
 ## Notes
-- If downloads keep failing during installation, try again with a VPN.
+- Flash it again after every ROM update.
+- Updating from an older version is fine, the original PowerKeeper is patched again.
 
 ---
 
