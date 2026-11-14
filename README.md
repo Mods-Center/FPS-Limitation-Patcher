@@ -27,7 +27,7 @@
 ## Requirements
 - MIUI or HyperOS, Android 11 or newer (up to Android 16)
 - Magisk, KernelSU or APatch
-- Android 13+: signature verification must be disabled
+- Android 13+: signature verification must be disabled (e.g. with [Apk Signature Verification Patch](https://github.com/Mods-Center/Apk-Signature-Verification-Patch) or [Apk Protection Patch](https://github.com/Mods-Center/Apk-Protection-Patch))
 
 ## Installation
 1. Download the latest zip from [**Releases**](https://github.com/Mods-Center/FPS-Limitation-Patcher/releases/latest).
