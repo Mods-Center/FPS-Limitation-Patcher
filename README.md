@@ -4,7 +4,7 @@
 
 # FPS Limitation Patcher
 
-**Removes the FPS and performance limits set by PowerKeeper on MIUI and HyperOS.**
+**Removes the FPS and performance limits set by PowerKeeper and Joyose on MIUI and HyperOS.**
 
 [![Release](https://img.shields.io/github/v/release/Mods-Center/FPS-Limitation-Patcher?style=for-the-badge&label=release&color=0a84ff)](https://github.com/Mods-Center/FPS-Limitation-Patcher/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Mods-Center/FPS-Limitation-Patcher/total?style=for-the-badge&color=30d158)](https://github.com/Mods-Center/FPS-Limitation-Patcher/releases)
@@ -14,12 +14,13 @@
 </div>
 
 ## Features
-- No FPS caps from PowerKeeper: no 60 Hz app lists, no video/idle drops, no Game Turbo limits
+- No FPS caps from PowerKeeper: no 60 Hz app lists, no video/idle drops (YouTube and other video apps), no Game Turbo limits
+- No per-game frame caps from Joyose (Xiaomi's game tuning app)
 - No refresh-rate drop when the phone heats up
 - Battery saver no longer caps CPU speed (its other savings stay on)
 - Hidden PowerKeeper cloud info menu unlocked on stable ROMs: dial `*#*#76937#*#*`
 - Closes a security hole that let any app point PowerKeeper's power policy to its own server
-- Patches the PowerKeeper app already on your device during install, so it matches your ROM
+- Patches the PowerKeeper and Joyose apps already on your device during install, so it matches your ROM
 - Small (about 4 MB): uses the phone's own Android runtime, no Java bundled
 - Thermal safety limits are untouched, overheat protection still works
 
@@ -35,7 +36,9 @@
 
 ## Notes
 - Flash it again after every ROM update.
-- Updating from an older version is fine, the original PowerKeeper is patched again.
+- Updating from an older version is fine, the original apps are patched again.
+- Some games pick their own FPS limit per phone model (for example PUBG, Genshin); a system mod cannot change that.
+- When the phone gets very hot, the system can still lower game performance to protect it.
 
 ---
 
