@@ -1,8 +1,8 @@
-## v4.0 (42)
+## v4.0 (43)
 
 ### Changelog
 **Nov 16, 2026**
-- Updated the on-device APKEditor engine to 1.4.9 (more reliable, faster on-device patching).
+- Updated the on-device APKEditor engine to 1.4.9 and fixed a packaging bug where it was missing its resource files (install failed with "inStream parameter is null").
 
 ### What's new
 - Removes PowerKeeper's FPS limits in apps, video apps (YouTube and others) and games
